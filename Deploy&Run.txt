@@ -1,8 +1,7 @@
 
 Deploy/Run instruction:\
 \
-1. Drag the codes from html file, view.py, model.py and admin.py of template into the 
-\f1 \cf2 appropriate files\
+1. Drag the codes from html file, view.py, model.py and admin.py of template into the appropriate files\
 2. add route in the url config file and the head(from **** import ****)\
 3. use command: python manage.py syncdb to create database\
 4. use command: python manage.py run server to start server\
