@@ -1,7 +1,8 @@
+import os
 import unittest
 import urllib
 import re
-from server import RepresentsInt, fibo
+from view import RepresentsInt, fibo
 
 def getResponse(input):
     response = urllib.urlopen('http://localhost:8000/fibo/'+input)
